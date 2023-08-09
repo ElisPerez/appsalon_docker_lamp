@@ -1,3 +1,10 @@
+<?php
+require __DIR__ . '/src/includes/functions.php';
+
+$query = obtener_servicios();
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -21,7 +28,13 @@
                 <h2>Servicios</h2>
                 <p class="text-center">Elige tus Servicios a Continuación</p>
                 <div id="servicios" class="listado-servicios">
-
+                    <?php
+                    while ($service = mysqli_fetch_assoc($query)) { ?>
+                        <div class="servicio">
+                            <p class="nombre-servicio"><?php echo $service['name'] ?></p>
+                            <p class="precio-servicio"><?php echo $service['price'] ?></p>
+                        </div>
+                    <?php } ?>
                 </div>
             </div>
         </div>
