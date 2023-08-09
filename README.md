@@ -21,7 +21,7 @@ Clone YourProject on `www/` and then, open web [http://127.0.0.1/YourProject](ht
 
 Run MySQL client:
 
-- `docker-compose exec db mysql -u root -p`
+- `docker compose exec db mysql -u root -p`
 
 ### Infrastructure model
 
