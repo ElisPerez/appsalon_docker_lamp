@@ -4,8 +4,8 @@
  GROUP BY appointment_date
  ORDER BY COUNT(id) DESC;
 
-   SELECT SUM(price) AS `Total Servicios`
+   SELECT SUM(price) AS 'Total Servicios'
      FROM services;
 
-   SELECT MIN(price) AS `Precio Menor`
+   SELECT MIN(price) AS 'Precio Menor'
      FROM services;
