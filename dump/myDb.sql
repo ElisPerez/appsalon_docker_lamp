@@ -1,5 +1,5 @@
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "-05:00";
+-- SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+-- SET time_zone = "-05:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -16,11 +16,8 @@ SET time_zone = "-05:00";
 -- ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
--- INSERT INTO `services` (`id`, `name`) VALUES
--- (1, 'Elis'),
--- (2, 'Marc'),
--- (3, 'John'),
--- (4, 'Antonio');
+-- INSERT INTO `services` (`name`, `price`) VALUES
+-- ('Corte de Cabello Adulto', 90);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
